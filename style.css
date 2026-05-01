@@ -79,3 +79,12 @@ p {
 
 .gold:hover { background: #d4af37; color: #000; }
 .silver:hover { background: #fff; color: #000; }
+.main-logo {
+    width: 200px; /* Adjust to your preference */
+    height: auto;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.4));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
