@@ -33,9 +33,14 @@ body {
     height: auto;
     margin: 0 auto 10px auto;
     display: block;
-    /* This will blend the logo even more */
-    mix-blend-mode: lighten; 
-    filter: drop-shadow(0 0 30px rgba(212, 175, 55, 0.3));
+    /* 'screen' is the industry standard for removing black backgrounds from images */
+    mix-blend-mode: screen; 
+    filter: drop-shadow(0 0 25px rgba(212, 175, 55, 0.4));
+    transition: transform 0.5s ease;
+    /* This ensures no border or outline interferes */
+    border: none;
+    outline: none;
+}
 }
 }
 
